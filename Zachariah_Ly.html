@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="pageSetup.css"/>
+        <!-- href="styles.css"/> -->
+        <meta charset="utf-8"/>
+        <title>'Z' for Zachariah</title>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive" rel="stylesheet">
+
+        <script src="./scripts/singlePageApp.js"></script>
+        <script src="https://kit.fontawesome.com/9724e4f89f.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header id="webpageHeader">
+            <h1 id="name", class="headerElement cursive">Zachariah 'Kong' Ly</h1>
+            <!-- <h1 id="name", class="headerElement" onclick="window.location.href = 'index.html';">Zachariah 'Kong' Ly</h1> -->
+            <nav id="headerButtons", class="headerElement">
+                <button id = "aboutButton", class="headerElement button" onclick="window.location.href = 'about.html';"  > About </button>
+                <button class="headerElement button unfinishedButton"> Gallery </button>
+                <a href="https://linktr.ee/mountainkong"><button class="headerElement button"> Links </button></a>
+            </nav>
+        </header>
+        <main>
+            <div id="landingPageBody", class="section show">
+                <img id="aboutIllustration", src="images\TableMountain.svg">
+                <h1 class="bodyText largeHeader">"Moun·tain K·ong" (/'mount(ə)n kɔŋ/ - Noun)</h1>    
+                <h1 class="bodyText cursive noMargins">An alias formed on habitat, hobbies, and heritage</h1>        
+            </div>
+
+            <div id = "aboutPage" class="section boxShadow hide">
+                <div id = "index" class="bodyBox">
+                    <h1 class="bodyText largeHeader textBackdrop">Moun·tain K·ong</h1>
+                    <h2 class="bodyText textBackdrop">/'mount(ə)n kɔŋ/ - Noun</h2>
+                </div>
+                <div class="bodyBox">
+                    <h2 class="bodyText textBackdrop">An alias coined to myself, in particular, as a result of affiliation of growing up in and exploring the Rocky Mountains, and my Cantonese heritage I hold closely.</h2>
+                </div>
+
+                <div id="unfinished" class="bodyBox textBackdrop hide">
+                    <h1 class="bodyText"> Coming Soon</h1>
+                </div>
+            </div>
+        </main>
+    </body>
+    <footer>
+        "Find me in the mountains, where the air is pure like freshly fallen snow."
+    </footer>
+
+</html>

@@ -1,0 +1,12 @@
+{
+    "fileLocation": "gallery\tenPeaks.jpg",
+    "photoTitle": "Ten Peaks",
+    "details": {
+        "date": "2023-08-30",
+        "location": {
+            "area": "Eiffel Lake",
+            "region": "Lake Louise",
+            "country": "Canada"
+        }
+    }
+}

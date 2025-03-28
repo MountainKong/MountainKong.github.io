@@ -1,0 +1,75 @@
+/* Color Pallet:
+      Off-black   - #1c1c1c 
+      Text White  - #ececec
+      Creme BkGr. - #fcf8f3*/
+
+/* Global Properties */
+body { margin: 0px; font-family: "Open Sans"; background-color: #eee4d2; color: #1c1c1c;}
+
+
+/* Header Properties */
+header { position: sticky; top: 0; z-index: 10; display: flex; justify-content: space-between; background-color: #1c1c1c; /*font-size: large;*/ }
+#headerButtons  { padding: 4px; /*padding-right: 0px;*/ display: flex; align-items: center; }
+
+#name.headerElement  { font-family: "Cedarville Cursive"; margin: 0px; padding: 12px; padding-top: 0px; min-width: max-content; cursor: default;}
+#name, button.headerElement { cursor: pointer; font-style: italic; color: #ececec;}
+
+
+button.headerElement { background-color: #1c1c1c; min-width: 128px; height: max-content;
+      text-align: center;  font-family: "Open Sans"; font-size: large;
+      border: 0px; border-radius: 6px;
+      padding: 8px; margin: 8px;}
+button.headerElement:hover{ background-color: #323131}
+/*
+ @media(max-width:768px){
+     .for-desktop{
+        display:none;
+      }
+ }
+
+ @media(min-width:768px){
+     .for-mobile{
+        display:none;
+      }
+ }
+ */
+
+/* Footer Elements */
+footer { letter-spacing: 3px; display: flex; color: #1c1c1c; height: max-content; text-align: center; 
+         padding: 8px; justify-content: /*space-between*/end; font-style: italic; }
+
+/* ----------------------------------------------------------------------------------------------------------- */
+
+
+
+/* HTML Body */
+.section {  display: flex; padding: 3em; min-height: auto; background-size:cover; border: none;
+            margin: 24px;  justify-content: center; align-items: flex-start; }
+.bodyBox { color: #ececec; position: relative; padding: 16px; height: auto; }
+.bodyBox.hideBackground { background: none; }
+
+
+/* Eventually remove background from h1.bodyText*/
+/* h1.bodyText { max-height: min-content; max-width: fit-content; border: 0px; border-radius: 8px;
+              padding: 8px; grid-column: 1 / -1; grid-row: 1;} */
+
+#aboutDesc.bodyText { font-size: 150%; font-weight: 500; }
+p.bodyText  { align-items: center; display: flex; justify-content: center; font-size: 125%; margin-top: 10px;}
+
+/* #index              { width: 612px;} */
+#index.bodyBox .bodyText { max-height: min-content; width: fit-content; min-width: max-content; border: 0px; border-radius: 8px; padding: 8px;} 
+#landingPage        { background-image: url(./images/tenPeaksToweringEiffel.jpg); height: 100%; min-height: 560px; justify-content: flex-start;}
+#aboutNameHeader    { display: flex; justify-content: center; font-family: "Cedarville Cursive"; flex-direction: column; align-items: center; max-height: 512px;}
+#aboutNameHeader h1 { margin: 0px;}
+#aboutBackground    { background-image: url(./images/staringSarrail.jpg); height: 1440px; display: flex;
+                      flex-direction: column; justify-content: flex-start; }
+
+#aboutMe           { box-shadow: 4px 4px 16px 4px #323131; max-width: 360px; border: 0px; border-radius: 8px;}
+#aboutIllustration { justify-content: center; object-fit: scale-down; display: flex; width: 100%; margin-top: 0px; margin-bottom: 0px;}
+
+/* Class Element Characteristics*/
+.largeHeader{ font-size: 200%; font-family: "Open Sans"; font-style: italic;}
+.textBackdrop {display: flex ; background: rgba(50, 49, 49, 0.8); border: 0px; border-radius: 8px; padding: 8px; margin-bottom: 32px;}
+.boxShadow {box-shadow: 4px 4px 16px 4px #625D52;}
+.show { display: flex;}
+.hide {display: none; background: none;}
