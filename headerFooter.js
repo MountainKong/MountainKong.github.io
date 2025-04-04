@@ -9,7 +9,7 @@ function Header (header){
             </nav>
         </header>
     );
-    //// <!-- <h1 id="name" class="headerElement" onclick="window.location.href = 'index.html';">Zachariah 'Kong' Ly</h1> -->
+    // <!-- <h1 id="name" class="headerElement" onclick="window.location.href = 'index.html';">Zachariah 'Kong' Ly</h1> -->
 }
 
 function footer (footer){
